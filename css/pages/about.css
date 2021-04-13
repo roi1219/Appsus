@@ -1,0 +1,32 @@
+#me{
+    padding: 30px;
+    background-image:linear-gradient( #edc7b7,rgba(105, 103, 103, 0.658));
+    color:white;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.about h1{
+    text-align: center;
+}
+.about a:hover{
+    text-decoration: none;
+}
+.about a .fa{
+    font-size: 15px;
+    background: none;
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    transition: all .5s;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about a .fa:hover {
+    border-radius: 100%;
+    background-color: rgba(83, 82, 82, 0.726);
+
+}

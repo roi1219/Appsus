@@ -1,0 +1,31 @@
+.main-content{
+    width:900px;
+    margin:0 auto;
+    text-align: center;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.clean-list{
+    list-style-type: none;
+}
+@media (max-width:950px){
+    .main-content{
+        width: 800px;
+    }
+}
+@media (max-width:820px){
+    .main-content{
+        width: 500px;
+    }
+}
+@media (max-width:550px){
+    .main-content{
+        width: 350px;
+    }
+}

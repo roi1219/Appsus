@@ -1,0 +1,20 @@
+.user-msg{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    text-align: center; 
+    transition: all .6s;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #fff;
+}
+.user-msg.success{
+    border:10px solid greenyellow;
+}
+.user-msg.error{
+    background-color: red;
+}

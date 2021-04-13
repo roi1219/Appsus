@@ -1,0 +1,28 @@
+.add{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.add button {
+    font-size: 15px;
+    background: none;
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    transition: all .5s;
+    margin: 5px;
+}
+
+.add button:hover {
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.521);
+
+}
+input[type="file"]{
+    color: transparent;
+}
+
+button.selected{
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.521);
+}

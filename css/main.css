@@ -1,0 +1,68 @@
+@import './apps/keep/pages/keep-app.css';
+@import './apps/book/pages/book-app.css';
+@import './cmps/app-header.css';
+@import './cmps/user-msg.css';
+@import './basic/fonts.css';
+@import './basic/helpers.css';
+@import './pages/home.css';
+@import './pages/about.css';
+@import './apps/mail/mail-app.css';
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+/* body {
+    height: 100vh;
+} */
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    height: 80px;
+    background-color: #edc7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.about+footer, .home+footer, .mail+footer{
+    position: fixed;
+}
+.main-screen {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 80%);
+    cursor: pointer;
+    transition: opacity .4s;
+}
+input{
+    border-radius:10px;
+    outline: none;
+}
+
+@media (max-width:550px){
+    body.menu-open .main-screen {
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+    }
+}

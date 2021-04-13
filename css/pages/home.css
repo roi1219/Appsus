@@ -1,0 +1,18 @@
+.box img {
+    width: 150px;
+}
+
+.home h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home .main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .box {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,47 @@
+
+.note button {
+    background: none;
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    transition: all .5s;
+}
+.note a {
+    color: black;
+    text-decoration: none;
+}
+
+.note button:hover {
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+.note .fa-palette {
+    position: relative;
+}
+
+.note .fa-palette nav {
+    position: absolute;
+    top: 25px;
+    left: -77px;
+    display: flex;
+    width: fit-content;
+    background: #808080ad;
+    padding: 5px;
+    gap: 2px;
+    border-radius: 25px;
+}
+
+.note .fa-palette span {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all .4s;
+}
+
+.note .fa-palette span:hover {
+    opacity: .5;
+}
